@@ -1,0 +1,106 @@
+:root {
+  /* Paleta de colores basada en Figma */
+  --text: #a3a3a3; /* Gris claro para los párrafos */
+  --text-h: #f5f5f5; /* Blanco humo para títulos (Jhonatan Ardila, etc) */
+  --bg: #0a0a0a; /* Fondo principal oscuro */
+  --border: #333333; /* Líneas divisorias sutiles */
+  --code-bg: #121212; /* Fondo para tarjetas o etiquetas */
+  --accent: #d4af37; /* Acento Dorado/Ámbar */
+  --accent-bg: rgba(212, 175, 55, 0.1);
+  --accent-border: rgba(212, 175, 55, 0.5);
+  --social-bg: rgba(255, 255, 255, 0.05);
+  --shadow:
+    rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+
+  /* Tipografías importadas */
+  --sans: 'DM Sans', system-ui, sans-serif;
+  --heading: 'Playfair Display', serif;
+  --mono: 'DM Mono', ui-monospace, monospace;
+
+  font: 18px/160% var(--sans);
+  letter-spacing: 0.2px;
+  color-scheme: dark; /* Forzamos el esquema oscuro del portafolio */
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+}
+
+#root {
+  width: 1200px; /* Un poco más ancho para dar espacio al grid de proyectos */
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left; /* Cambiado a left para respetar el diseño editorial */
+  padding: 0 24px; /* Vital para que en móviles no se pegue a la pantalla */
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading);
+  font-weight: 400; /* Playfair se ve más elegante en regular o italic */
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 80px; /* Tamaño grande para el Hero */
+  line-height: 1.1;
+  letter-spacing: -2px;
+  margin: 32px 0;
+  @media (max-width: 1024px) {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 118%;
+  letter-spacing: -0.5px;
+  margin: 0 0 16px;
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
+}
+
+p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+/* Ajustes para etiquetas (tags) de tecnologías */
+code,
+.tag {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  color: var(--text-h);
+  font-size: 13px;
+  line-height: 135%;
+  padding: 4px 12px;
+  background: var(--code-bg);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Utilidad para pintar textos de dorado rápido */
+.text-accent {
+  color: var(--accent);
+}
