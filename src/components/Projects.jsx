@@ -14,7 +14,7 @@ export default function Projects() {
     {
       id: 1,
       title: "Análisis Espectral Acústico",
-      description: "Sistema de extracción de frecuencias fundamentales y coeficientes MFCC implementado para el análisis de grabaciones de voz, utilizando un dataset exclusivo depurado con grabaciones de Maleja.",
+      description: "Sistema de extracción de frecuencias fundamentales y coeficientes MFCC implementado para el análisis de grabaciones de aves, utilizando un dataset exclusivo depurado con grabaciones de cantos de aves.",
       tags: ["MATLAB", "DSP", "MFCC"],
       image: MFCCImg,
       demoLink: "#",
