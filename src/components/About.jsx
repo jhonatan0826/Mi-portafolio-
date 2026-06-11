@@ -42,11 +42,11 @@ export default function About() {
           </h2>
           
           <p style={{ marginBottom: '16px' }}>
-            Estudiante de noveno semestre de Ingeniería de Sonido con fuerte enfoque en la tecnología. Me apasiona el desarrollo de interfaces interactivas, la implementación de lógicas en videojuegos y el análisis de señales acústicas.
+            Ingeniero de Sonido en formación con un enfoque fuertemente artístico y experimental. Combino la magia del sonido en vivo con técnicas de espacialización inmersiva para crear atmósferas y experiencias auditivas que envuelven por completo al espectador.
           </p>
           
           <p style={{ marginBottom: '40px' }}>
-            Disfruto construyendo puentes entre el código limpio y el audio profesional, creando herramientas que viven en la intersección de la ingeniería y la expresión creativa.
+            Mi trabajo vive en la intersección entre el diseño sonoro y el performance. Busco constantemente nuevas formas de mezclar y diseñar espacios acústicos para instalaciones artísticas, obras de teatro y shows en vivo donde el audio dicta la narrativa visual y emocional.
           </p>
 
           {/* Contadores inferiores */}
