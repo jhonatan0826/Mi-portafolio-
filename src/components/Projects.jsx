@@ -5,6 +5,7 @@ import bateriaImg from '../assets/bateria.jpeg';
 import podImg from '../assets/Podcast.jpeg';
 import RFImg from '../assets/RF.jpeg';
 import teaImg from '../assets/teatro.jpeg';
+import MFCCImg from '../assets/MFCC';
 
 
 export default function Projects() {
@@ -32,7 +33,7 @@ export default function Projects() {
       title: "Análisis Espectral Acústico",
       description: "Sistema de extracción de frecuencias fundamentales y coeficientes MFCC implementado para el análisis de grabaciones de voz, utilizando un dataset exclusivo depurado con grabaciones de Maleja.",
       tags: ["MATLAB", "DSP", "MFCC"],
-      image: "https://images.unsplash.com/photo-1516280440502-0a1fb86e3f05?auto=format&fit=crop&q=80&w=600",
+      image: MFCCImg,
       demoLink: "#",
       repoLink: "#"
     },
