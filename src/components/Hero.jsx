@@ -16,7 +16,7 @@ export default function Hero() {
       </h1>
       
       <h2 style={{ color: 'var(--text)', fontWeight: '300', marginBottom: '32px' }}>
-        Desarrollo Front-end & Ingeniería de Sonido
+        Ingeniería de Sonido
       </h2>
       
       <p style={{ maxWidth: '600px', fontSize: '18px', marginBottom: '48px' }}>
