@@ -5,31 +5,14 @@ import bateriaImg from '../assets/bateria.jpeg';
 import podImg from '../assets/Podcast.jpeg';
 import RFImg from '../assets/RF.jpeg';
 import teaImg from '../assets/teatro.jpeg';
-import MFCCImg from '../assets/MFCC';
+import MFCCImg from '../assets/MFCC.png';
 
 
 export default function Projects() {
   const portfolioProjects = [
+    
     {
       id: 1,
-      title: "Catálogo Interactivo Rick & Morty",
-      description: "Aplicación web construida para consumir una API externa, utilizando custom hooks para filtrar y mostrar datos de personajes en una interfaz fluida.",
-      tags: ["REACT", "VITE", "API REST"],
-      image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=600",
-      demoLink: "#",
-      repoLink: "#"
-    },
-    {
-      id: 2,
-      title: "Rediseño Sonoro Interactivo",
-      description: "Implementación en motor de físicas de movimiento en primera persona y un sistema de audio dinámico con grabaciones realistas para un plataformero clásico.",
-      tags: ["UNITY", "C#", "FMOD"],
-      image: "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80&w=600",
-      demoLink: "#",
-      repoLink: "#"
-    },
-    {
-      id: 3,
       title: "Análisis Espectral Acústico",
       description: "Sistema de extracción de frecuencias fundamentales y coeficientes MFCC implementado para el análisis de grabaciones de voz, utilizando un dataset exclusivo depurado con grabaciones de Maleja.",
       tags: ["MATLAB", "DSP", "MFCC"],
@@ -38,7 +21,7 @@ export default function Projects() {
       repoLink: "#"
     },
     {
-      id: 4,
+      id: 2,
       title: "Grabación binaural de la sinfónica de eafit",
       description: "Capura de concierto de la bada sinfónica de EAFIT",
       tags: ["Audio binaural", "Sinfónica"],
@@ -47,7 +30,7 @@ export default function Projects() {
       repoLink: "#"
     },
     {
-      id: 5,
+      id: 3,
       title: "Arpa laser",
       description: "Instrumento poco convencional en el cual se incorporaron diferentes técnicas de sintesis de sonido, circuitos para ",
       tags: ["Plug Data", "Circuitos electronicos"],
@@ -56,7 +39,7 @@ export default function Projects() {
       repoLink: "#"
     },
     {
-      id: 6,
+      id: 4,
       title: "Grabación de grupos",
       description: "Grabación de diferentes grupos en sesiones en vivo",
       tags: ["PRO TOOLS", "GRABACIÓN", "MICROFONERÍA"],
@@ -65,7 +48,7 @@ export default function Projects() {
       repoLink: "#"
     },
     {
-      id: 7,
+      id: 5,
       title: "Grabación de batería",
       description: "Grabación de batería para diferentes álbumes",
       tags: ["PRO TOOLSs", "GRABACIÓN", "MICROFONERÍA", "BATERÍA"],
@@ -74,7 +57,7 @@ export default function Projects() {
       repoLink: "#"
     },
     {
-      id: 8,
+      id: 6,
       title: "Grabación de podcast",
       description: "Grabación de podcast",
       tags: ["PRO TOOLS", "GRABACIÓN", "MICROFONERÍA", "PODCAST"],
@@ -83,7 +66,7 @@ export default function Projects() {
       repoLink: "#"
     },
     {
-      id: 9,
+      id: 7,
       title: "RF para eventos en vivo",
       description: "Monitoreo por medio de RF para eventos en vivo",
       tags: ["LIVE SOUND", "RF", "MICROFONERÍA"],
@@ -92,14 +75,32 @@ export default function Projects() {
       repoLink: "#"
     },
     {
-      id: 10,
+      id: 8,
       title: "Monitoreo de en vivo para teatro musical",
       description: "Monitoreo de evento privado de teatro musical",
       tags: ["Monitoreo", "RF", "MICROFONERÍA"],
       image: teaImg,
       demoLink: "#",
       repoLink: "#"
-    }
+    },
+    {
+      id: 9,
+      title: "Catálogo Interactivo Rick & Morty",
+      description: "Aplicación web construida para consumir una API externa, utilizando custom hooks para filtrar y mostrar datos de personajes en una interfaz fluida.",
+      tags: ["REACT", "VITE", "API REST"],
+      image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=600",
+      demoLink: "#",
+      repoLink: "#"
+    },
+    {
+      id: 10,
+      title: "Rediseño Sonoro Interactivo",
+      description: "Implementación en motor de físicas de movimiento en primera persona y un sistema de audio dinámico con grabaciones realistas para un plataformero clásico.",
+      tags: ["UNITY", "C#", "FMOD"],
+      image: "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80&w=600",
+      demoLink: "#",
+      repoLink: "#"
+    },
 
 
     
